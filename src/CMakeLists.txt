@@ -2,6 +2,8 @@
 FILE(GLOB MyCppSources ./*.cpp)
 FILE(GLOB MyCppheaders ./*.h)
 
+set(CMAKE_CXX_STANDARD 20)
+
 # TODO move the unit test to test build and include in test mechanims of cmake
 #list(REMOVE_ITEM MyCppSources "./unitTestBasicTypes.cpp")
 #list(REMOVE_ITEM MyCppSources "./unitTestConnectNeuralNetWiringFromGenome.cpp")
